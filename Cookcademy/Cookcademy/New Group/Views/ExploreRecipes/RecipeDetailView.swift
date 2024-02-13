@@ -57,8 +57,8 @@ struct RecipeDetailView: View {
                 }
             }
         }
-        .background(.ultraThinMaterial)
         .navigationTitle(recipe.mainInformation.name)
+        .toolbarTitleDisplayMode(.inline)
     }
 }
 
